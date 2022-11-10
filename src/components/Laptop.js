@@ -10,12 +10,10 @@ export default function Laptop(props) {
     //for slider
     let box = document.querySelector('.container')
     const pre = () => {
-        let width = box.clientWidth;
-        box.scrollLeft = box.scrollLeft - width
+        box.scrollLeft = box.scrollLeft - window.innerWidth
     }
     const next = () => {
-        let width = box.clientWidth;
-        box.scrollLeft = box.scrollLeft + width
+        box.scrollLeft = box.scrollLeft + window.innerWidth
     }
 
     //for filter 
