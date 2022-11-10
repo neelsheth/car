@@ -7,7 +7,7 @@ export default function LaptopBox(props) {
   const data = props.data
 
   return (
-    <div className='box' style={{marginRight: '45px'}} >
+    <div className='box' style={{marginRight: '55px'}} >
       <div className='capital text'>{data.bodyType}</div>
       <div className='text'><span style={{marginRight:'10px' }}>{data.modelName}</span>  {data.modelType}</div>
       <img className='mainImage' src={data.imageUrl} height="250px"></img>
