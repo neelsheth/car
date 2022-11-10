@@ -7,13 +7,13 @@ import './laptop.css'
 export default function Laptop(props) {
     const data = props.data
 
-    //for slider
+    //for slider window.innerWidth
     let box = document.querySelector('.container')
     const pre = () => {
-        box.scrollLeft = box.scrollLeft - window.innerWidth
+        box.scrollLeft = box.scrollLeft - 720
     }
     const next = () => {
-        box.scrollLeft = box.scrollLeft + window.innerWidth
+        box.scrollLeft = box.scrollLeft + 720
     }
 
     //for filter 
