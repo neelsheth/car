@@ -8,11 +8,13 @@ export default function Laptop(props) {
     const data = props.data
 
     //for slider 
-    let box = document.querySelector('.container')
+    
     const pre = () => {
+        let box = document.querySelector('.container')
         box.scrollLeft = box.scrollLeft - window.innerWidth
     }
     const next = () => {
+        let box = document.querySelector('.container')
         box.scrollLeft = box.scrollLeft + window.innerWidth
     }
 
