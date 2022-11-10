@@ -44,7 +44,7 @@ export default function Laptop(props) {
         <div>
             {/*-------------------------- filter button --------------------------------*/}
             <div className='btnBox'>
-                <button className={active === 'all' ? 'filterBtn active' : 'filterBtn'} onClick={allShow}>Show All</button>
+                <button className={active === 'all' ? 'filterBtn active' : 'filterBtn'} onClick={allShow}>SHOW All</button>
                 <button className={active === 'suv' ? 'filterBtn active' : 'filterBtn'} onClick={suvshow} >SUV</button>
                 <button className={active === 'estate' ? 'filterBtn active' : 'filterBtn'} onClick={estateshow}>ESTATE</button>
                 <button className={active === 'sedan' ? 'filterBtn active' : 'filterBtn'} onClick={sedanshow}>SEDAN</button>
