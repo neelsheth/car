@@ -64,10 +64,10 @@ export default function Laptop(props) {
             </div>
 
             {/*----------------- slider Button -----------------------------*/}
-            <div className='sliderBtn'>
+            {active === 'all' && <div className='sliderBtn'>
                 <img src={logo} className='pre' onClick={pre} height="30px"></img>
                 <img src={logo} className='next' onClick={next} height="30px"></img>
-            </div>
+            </div>}
         </div>
     )
 }
