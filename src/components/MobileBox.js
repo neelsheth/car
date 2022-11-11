@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './docs/logo.svg'
+import PopUp from './PopUp';
 
 export default function MobileBox(props) {
 
