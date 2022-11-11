@@ -95,3 +95,72 @@ button {
     background-color: rgba(118, 115, 115, 0.909);
     color: white;
 }
+
+/* -----------------------pop up------------------------------------ */
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(86, 87, 88, 0.614);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.popup-inner{
+    position: relative;
+    padding: 20px;
+    width: 50%;
+    min-width:370px ;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 5px 15px 0  #060606; 
+
+}
+
+.Image{
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    max-height: 250px;
+}
+
+
+.text{
+    font-size: 15px;
+    margin: 5px;
+}
+
+.btnpop{
+    position: absolute;
+    border-radius: 50%;
+    top: 2%;
+    right: 4%;
+    cursor: pointer;
+    padding: 3px 6px;
+    font-weight: bold;
+    font-size:20px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.btnpop:hover{
+    background-color: rgb(193, 190, 190);
+    color: black
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
