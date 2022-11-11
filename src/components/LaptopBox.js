@@ -1,5 +1,6 @@
 import React,{ useState } from 'react'
 import logo from './docs/logo.svg'
+import PopUp from './PopUp';
 
 
 ///displaying Each Index data as individual component
