@@ -4,12 +4,11 @@ export default function PopUp(props) {
     const data = props.data
   return (
     <div>
-        {console.log(props + " mobile data coming")}
+
          <div className='popup'>
                 <div className='popup-inner'>
                     <div className='Image'>
-                        <img className='image' src={data.imageUrl} width='220px'></img>
-                        {console.log(data)}
+                        <img className='image' src={data.imageUrl} width='220px'></img>                     
                     </div>
                         
                     <div className='info'>
